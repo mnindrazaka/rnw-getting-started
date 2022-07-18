@@ -1,11 +1,13 @@
-import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import { Text, TextInput } from 'react-native';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <Text>Yolo Yolo</Text>
+        <TextInput />
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
